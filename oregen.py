@@ -17,6 +17,7 @@ MINERAL_VARIANT_PATH = "./basetextures/oreset/minerals"  # Path to mineral varia
 # Ensure the directories exist
 os.makedirs(GENERATED_PATH, exist_ok=True)
 os.makedirs(GENERATED_ITEM_PATH, exist_ok=True)
+os.makedirs(GENERATED_MODEL_PATH, exist_ok=True)
 
 # Consolidated function to apply tint and overlay for ore, block, and tools
 def apply_tint_and_overlay(ore_variant_name, block_variant_name, tint_color, ore_name):
